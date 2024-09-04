@@ -1,0 +1,50 @@
+body {
+    color: white;
+    background: rgb(19, 19, 19);
+    margin: 0px;
+    font-family: normal;
+}
+
+header {
+    border-bottom: solid 2px rgb(37, 37, 37);
+    padding: 20px;
+    font-size: 50px;
+    color: rgb(224, 255, 113);
+    font-family: FreeMono, monospace;
+}
+
+.chamada {
+    background: rgb(29, 29, 29);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    height: 200px;
+    border-radius: 25px;
+}
+
+.categoria-audios {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
